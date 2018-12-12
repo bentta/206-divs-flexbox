@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Make me into a grid!</title>
+        <title>Bentta's Flexbox Skills</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,25 +12,41 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400i,700i" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-       
-        <section class="wrapper">
-            <div class="div-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+        
+        <section class="flex-container">
+            <header>
+                <h1>Hi! I'm Holly.</h1>
+            </header>
+            <main>
+                <p>I am a <span>Responsive Designer & Developer</span> who thrives on visual storytelling and the best user experience. When I'm not working, pursuing side projects or getting lost in the rabbit hole of blogs and books, I can be found traveling, biking and searching for new inspiration and stories.</p>
+            </main>
+            <div id="div-1" class="flex-items">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
             </div>
-            <div class="div-2">
-                Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. 
+            <div id="div-2" class="flex-items">
+                <p>Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor.</p>
             </div>
-            <div class="div-3">
-                Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis.
+            <div id="div-3" class="flex-items">
+                <p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis.</p>
             </div>
+            <footer>
+                <ul class="icons">  
+                    <li id="behance"><img src="img/icon-behance.png" alt="Behance Icon" /></a></li>
+                    <li id="codepen"><img src="img/icon-codepen.png" alt="CodePen Icon" /></a></li>
+                    <li id="insta"><img src="img/icon-insta.png" alt="Instagram Icon" /></a></li>
+                </ul>
+                <div id="credit">
+                    <p>Photo by Matthew Brodeur on Unsplash</p>
+                </div>
+            </footer>
         </section>    
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
